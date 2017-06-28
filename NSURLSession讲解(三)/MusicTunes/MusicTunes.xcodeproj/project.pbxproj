@@ -34,8 +34,6 @@
 		A4B474B31F00E91A00D7B821 /* DownloadModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B474B21F00E91A00D7B821 /* DownloadModel.m */; };
 		A4B474B41F00EDEF00D7B821 /* SearchModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B474B01F00E90900D7B821 /* SearchModel.m */; };
 		A4B474B81F011FAC00D7B821 /* SearchSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B474B71F011FAC00D7B821 /* SearchSessionDelegate.m */; };
-		A4B691FA1EFBFE1C0028185C /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B691F61EFBFE1C0028185C /* NSObject+YYModel.m */; };
-		A4B691FB1EFBFE1C0028185C /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A4B691F81EFBFE1C0028185C /* YYClassInfo.m */; };
 		A4C610F01EFC299D000F2FFB /* SearchViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C610EF1EFC299D000F2FFB /* SearchViewModel.m */; };
 		A4C610F71EFC29C1000F2FFB /* SearchTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C610F61EFC29C1000F2FFB /* SearchTableViewDataSource.m */; };
 		A4C610FE1EFCC3F7000F2FFB /* SearchTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4C610FD1EFCC3F7000F2FFB /* SearchTableViewDelegate.m */; };
@@ -130,11 +128,6 @@
 		A4B474B21F00E91A00D7B821 /* DownloadModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadModel.m; sourceTree = "<group>"; };
 		A4B474B61F011FAC00D7B821 /* SearchSessionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchSessionDelegate.h; sourceTree = "<group>"; };
 		A4B474B71F011FAC00D7B821 /* SearchSessionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchSessionDelegate.m; sourceTree = "<group>"; };
-		A4B691F51EFBFE1C0028185C /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
-		A4B691F61EFBFE1C0028185C /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
-		A4B691F71EFBFE1C0028185C /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
-		A4B691F81EFBFE1C0028185C /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
-		A4B691F91EFBFE1C0028185C /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
 		A4C610EE1EFC299C000F2FFB /* SearchViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchViewModel.h; sourceTree = "<group>"; };
 		A4C610EF1EFC299D000F2FFB /* SearchViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchViewModel.m; sourceTree = "<group>"; };
 		A4C610F51EFC29C1000F2FFB /* SearchTableViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchTableViewDataSource.h; sourceTree = "<group>"; };
@@ -264,7 +257,6 @@
 			isa = PBXGroup;
 			children = (
 				A47D26A01EFA7DA40068553B /* CLUIKit.framework */,
-				A4B691F41EFBFE1C0028185C /* YYModel */,
 				A47D26651EFA68D00068553B /* Masonry */,
 			);
 			path = Frameworks;
@@ -409,19 +401,6 @@
 				A4B474B71F011FAC00D7B821 /* SearchSessionDelegate.m */,
 			);
 			path = SearchSessionDelegate;
-			sourceTree = "<group>";
-		};
-		A4B691F41EFBFE1C0028185C /* YYModel */ = {
-			isa = PBXGroup;
-			children = (
-				A4B691F51EFBFE1C0028185C /* NSObject+YYModel.h */,
-				A4B691F61EFBFE1C0028185C /* NSObject+YYModel.m */,
-				A4B691F71EFBFE1C0028185C /* YYClassInfo.h */,
-				A4B691F81EFBFE1C0028185C /* YYClassInfo.m */,
-				A4B691F91EFBFE1C0028185C /* YYModel.h */,
-			);
-			name = YYModel;
-			path = ../../../Projects/CLFramework/CLFoundation/CLFoundation/YYModel;
 			sourceTree = "<group>";
 		};
 		A4C610EB1EFC2964000F2FFB /* ViewModel */ = {
@@ -613,7 +592,6 @@
 				A47D26861EFA68D10068553B /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
 				A4C610F71EFC29C1000F2FFB /* SearchTableViewDataSource.m in Sources */,
 				A47D26831EFA68D10068553B /* MASViewAttribute.m in Sources */,
-				A4B691FA1EFBFE1C0028185C /* NSObject+YYModel.m in Sources */,
 				A47D26921EFA6A7D0068553B /* SearchController.m in Sources */,
 				A4B474AC1EFECBA700D7B821 /* QueryService.m in Sources */,
 				A47D26821EFA68D10068553B /* MASLayoutConstraint.m in Sources */,
@@ -630,7 +608,6 @@
 				A47D26811EFA68D10068553B /* MASConstraintMaker.m in Sources */,
 				A47D26801EFA68D10068553B /* MASConstraint.m in Sources */,
 				A47D26871EFA68D10068553B /* View+MASAdditions.m in Sources */,
-				A4B691FB1EFBFE1C0028185C /* YYClassInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

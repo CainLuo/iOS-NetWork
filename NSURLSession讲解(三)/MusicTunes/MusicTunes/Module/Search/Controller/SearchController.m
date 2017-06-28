@@ -10,7 +10,7 @@
 #import <AVKit/AVKit.h>
 #import "SearchSessionDelegate.h"
 
-@interface SearchController () <UISearchBarDelegate>
+@interface SearchController ()
 
 @property (nonatomic, strong, readwrite) UITableView *tableView;
 @property (nonatomic, strong, readwrite) UISearchBar *searchBar;

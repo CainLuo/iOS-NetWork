@@ -9,6 +9,7 @@
 #import "SearchSessionDelegate.h"
 #import "DownloadModel.h"
 #import "SearchContentCell.h"
+#import "AppDelegate.h"
 
 @interface SearchSessionDelegate()
 
@@ -106,6 +107,16 @@ totalBytesExpectedToWrite:(int64_t)totalBytesExpectedToWrite {
 #pragma mark - NSURLSessionDelegate
 - (void)URLSessionDidFinishEventsForBackgroundURLSession:(NSURLSession *)session {
     
+    AppDelegate *appDelegate = (AppDelegate *)[[UIApplication sharedApplication] delegate];
+    
+    if (appDelegate.backgroundSessionCompletionHandler) {
+        
+        void (^completionHandler)() = [appDelegate backgroundSessionCompletionHandler];
+        
+        appDelegate.backgroundSessionCompletionHandler = nil;
+        
+        completionHandler();
+    }
 }
 
 @end

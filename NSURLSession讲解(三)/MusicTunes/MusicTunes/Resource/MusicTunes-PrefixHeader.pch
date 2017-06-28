@@ -10,7 +10,6 @@
 #define MusicTunes_PrefixHeader_pch
 
 #import "Masonry.h"
-#import "YYModel.h"
 #import <CLUIKit/CLUIKit.h>
 
 // Include any system framework and library headers here that should be included in all compilation units.
