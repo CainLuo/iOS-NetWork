@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "573BA8A631791929ABF522ADF5708DAD2ABC8A4D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "573BA8A631791929ABF522ADF5708DAD2ABC8A4D" : 9223372036854775807,
+    "7AB4801C3484AF5026971B3CE4BDADF0B2758447" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E44B5453-045A-4228-8E5E-CE184FA6B9EA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "573BA8A631791929ABF522ADF5708DAD2ABC8A4D" : "iOS-NetWork\/",
+    "7AB4801C3484AF5026971B3CE4BDADF0B2758447" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IMClient",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Socket编程(三)\/IMClient\/IMClient.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CainRun\/iOS-NetWork.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "573BA8A631791929ABF522ADF5708DAD2ABC8A4D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/cainLuo\/yuyouzixun.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7AB4801C3484AF5026971B3CE4BDADF0B2758447"
+    }
+  ]
+}

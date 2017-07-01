@@ -1,0 +1,41 @@
+//
+//  IMClient-PrefixHeader.pch
+//  IMClient
+//
+//  Created by Cain on 2017/6/30.
+//  Copyright © 2017年 Cain. All rights reserved.
+//
+
+#ifndef IMClient_PrefixHeader_pch
+#define IMClient_PrefixHeader_pch
+
+
+#import "Masonry.h"
+
+#import "IQKeyboardManager.h"
+#import "IQKeyboardReturnKeyHandler.h"
+#import "IQTextView.h"
+#import "IQBarButtonItem.h"
+#import "IQPreviousNextView.h"
+#import "IQTitleBarButtonItem.h"
+#import "IQToolbar.h"
+#import "IQUIView+IQKeyboardToolbar.h"
+#import "IQKeyboardManagerConstantsInternal.h"
+#import "IQKeyboardManagerConstants.h"
+#import "IQNSArray+Sort.h"
+#import "IQUIScrollView+Additions.h"
+#import "IQUITextFieldView+Additions.h"
+#import "IQUIView+Hierarchy.h"
+#import "IQUIViewController+Additions.h"
+#import "IQUIWindow+Hierarchy.h"
+
+#import <CocoaAsyncSocket/CocoaAsyncSocket.h>
+
+#include <netinet/in.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* IMClient_PrefixHeader_pch */
